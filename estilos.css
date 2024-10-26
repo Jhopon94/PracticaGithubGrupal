@@ -1,0 +1,14 @@
+.password{
+    width: 50%;
+    margin: 0 auto; 
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+

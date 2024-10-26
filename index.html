@@ -1,37 +1,26 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <link rel="stylesheet" href="estilos.css">
     <meta charset="UTF-8">
     <title>Ingreso de Usuario</title>
-    <style>
-        /* Opcional: Agregando estilo al formulario */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .login-container {
-            background-color: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-        }
-     
-        
-    </style>
-</head>
+</head>  
 <body>
     <div class="login-container">
         <h2>Ingreso de Usuario</h2>
-        <form action="tu-script-de-login.php" method="POST">
+       
             <label for="username">Nombre de Usuario:</label>
             <input type="text" id="username" name="username" required>
 
-        </form>
+       
     </div>
+    <div class="password">
+    
+        <label for="password">password</label>
+        <input type="password" id="password" name="password" placeholder="password" required>
+        <br><br>
+    
+ </div>
 </body>
+
 </html>
